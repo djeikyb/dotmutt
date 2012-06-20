@@ -14,6 +14,7 @@ set imap_check_subscribed # Auto poll sub'ed mailboxes for new mail
 #set header_cache_pagesize=64000 # Supposed optimum is 32k
 
 set move=no # Stop "move read messages to mbox"
+alternative_order text/plain text/html application/pdf application/ps
 auto_view text/html
 
 set imap_keepalive=200
