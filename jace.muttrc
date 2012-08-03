@@ -1,0 +1,29 @@
+set from = "jace42@gmail.com"
+set realname = "Jacob Certain"
+
+
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "=INBOX"
+#set record = "=[Gmail]/Sent<quote-char><space>Mail"
+set record = ""
+set postponed = "=[Gmail]/Drafts"
+
+
+macro index <F2> <change-folder>=[Gmail]/All<quote-char><space>Mail<enter> 'Goto all mail'
+
+
+set header_cache = "~/.config/mutt/jace.hcache"
+set certificate_file = "~/.config/mutt/jace.certificates"
+
+
+source ~/.config/mutt/jace.auth
+set ssl_force_tls = yes # Always use SSL when connecting to a server
+
+
+set smtp_url = "smtp://$imap_user:$imap_pass@smtp.gmail.com"
+
+
+source ~/.config/mutt/common
+
+
+# vim: syntax=muttrc

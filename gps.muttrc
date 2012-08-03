@@ -1,0 +1,28 @@
+set from = "jacob.certain@gilbertschools.net"
+set realname = "Jacob Certain"
+
+
+set folder="imap://gwia.gps/"
+set spoolfile="=INBOX"
+set record="=Cabinet/archive"
+
+macro index <F2> <change-folder>=Cabinet/archive<enter> 'Goto archive'
+macro index <F3> <change-folder>=Calendar<enter> 'Goto calendar'
+macro index <F4> <change-folder>=Cabinet/trac<enter> 'Goto trac emails'
+
+
+set header_cache = "~/.config/mutt/gps.hcache"
+set certificate_file = "~/.config/mutt/gps.certificates"
+
+
+source ~/.config/mutt/gps.auth
+# gps imap doesn't support ssl
+#set ssl_force_tls=yes # Always use SSL when connecting to a server
+
+
+set smtp_url = "smtp://$imap_user:$imap_pass@gwia.gps"
+
+
+source ~/.config/mutt/common
+
+# vim: syntax=muttrc
