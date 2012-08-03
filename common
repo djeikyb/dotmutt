@@ -18,7 +18,7 @@ alternative_order text/plain text/html application/pdf application/ps
 auto_view text/html
 
 set imap_keepalive=200
-set sort = 'reverse-last-date-received'
+set sort = 'reverse-date'
 #set sort_aux = 'reverse-last-date-received'
 
 set resolve = no # remove cursed auto scrolling
@@ -27,4 +27,6 @@ source ~/.config/mutt/aliases
 source ~/.config/mutt/bindings
 source ~/.config/mutt/colours
 source ~/.config/mutt/macros
-#source ~/.config/mutt-gw/hooks
+
+
+# vim: syntax=muttrc
