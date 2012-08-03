@@ -69,3 +69,5 @@ bind index   R     group-reply
 bind alias <Tab> next-entry
 
 bind browser <Right> select-entry
+
+# vim: syntax=muttrc
