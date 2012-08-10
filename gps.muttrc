@@ -3,7 +3,7 @@ set realname = "Jacob Certain"
 
 
 set folder="imap://gwia.gps/"
-set spoolfile="=INBOX"
+set spoolfile="=Cabinet/archive"
 set record="=Cabinet/archive"
 
 macro index <F2> <change-folder>=Cabinet/archive<enter> 'Goto archive'
