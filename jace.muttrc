@@ -20,7 +20,7 @@ source ~/.config/mutt/jace.auth
 set ssl_force_tls = yes # Always use SSL when connecting to a server
 
 
-set smtp_url = "smtp://$imap_user:$imap_pass@smtp.gmail.com"
+set smtp_url = "smtp://$imap_user:$imap_pass@smtp.gmail.com:587"
 
 
 source ~/.config/mutt/common
