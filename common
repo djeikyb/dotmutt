@@ -21,7 +21,7 @@ set imap_keepalive=200
 set sort = 'reverse-date'
 #set sort_aux = 'reverse-last-date-received'
 set date_format = "%F %R, %a"
-set index_format = "%4C %Z     %D     %-15.15L     %s"
+set index_format = "%4C %Z     %D     %4c     %-15.15L     %s"
 
 set resolve = no # remove cursed auto scrolling
 
