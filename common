@@ -39,7 +39,9 @@ hdr_order date from to cc subject
 
 source ~/.config/mutt/aliases
 source ~/.config/mutt/bindings
-source ~/.config/mutt/colours
+#source ~/.config/mutt/colours
+#source ~/cfg/mutt/mutt-colors-solarized-dark-16.muttrc
+source ~/cfg/mutt/mutt-colors-solarized-light-16.muttrc
 source ~/.config/mutt/macros
 
 
